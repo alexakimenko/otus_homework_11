@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "warehouse-management"
+version = "0.1.0"
+description = ""
+authors = ["Alex Akimenko <alexandr.akimenko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.36"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
